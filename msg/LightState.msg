@@ -1,6 +1,6 @@
 # Create or edit gazebo Light 
-string light_name              # light to set the state
-string type                    # type of light
+string light_name              # name of the light
+string type                    # type of light: POINT|SPOT|DIRECTIONAL
 geometry_msgs/Pose pose        # desired pose in the reference frame
 std_msgs/ColorRGBA diffuse     
 std_msgs/ColorRGBA specular
