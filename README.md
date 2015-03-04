@@ -12,6 +12,10 @@ to the world file (see test_lights.world as a reference).
 ========
 This node creates a topic called "/gazebo_light_node/set_light_state". Publishing a LightState message on this topic will create or edit existing lights in the gazebo world.
 
+
+![Screenshot of the plugin working](https://raw.githubusercontent.com/gntoni/gazebo_ros_light/master/gazebo_and_lights_ss.png)
+
+
 **test**
 ========
 
@@ -37,3 +41,7 @@ Then publish a message:
     spot_falloff: 0.0" 
 
 You should see a light appearing in the middle of the scene.
+
+You can also try executing the random lights demo script:
+
+    rosrun gazebo_ros_light random_lights.py
